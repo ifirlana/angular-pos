@@ -1,1 +1,2 @@
 # angular-pos
+npm install
