@@ -3,12 +3,14 @@
  */
 "use strict";
 
+firebase.initializeApp(Config);
 angular
     .module("App.firebase_factory", [
         "ngRoute",
         "ui.router",
         "firebase"
     ])
+    .constant("Db", Database)
     .factory("App.firebase_factory.SignInGoogle", [
         "$firebaseAuth",
         "$state",

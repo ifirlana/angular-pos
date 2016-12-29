@@ -2,3 +2,4 @@
 firebase-debug.log
 app/bower_components
 node_modules
+app/config/*
